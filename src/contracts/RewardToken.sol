@@ -1,9 +1,10 @@
-pragma solidity ^0.5.0;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.5.16;
 
 contract RewardToken {
-    string  public name = "DApp Token";
+    string  public name = "DAPP Token";
     string  public symbol = "DAPP";
-    uint256 public totalSupply = 1000000000000000000000000; // 1 million tokens
+    uint256 public totalSupply = 1000000000000000000000000;
     uint8   public decimals = 18;
 
     event Transfer(
